@@ -18,5 +18,10 @@ public class DemoController {
 	public String getFeatureMessage() {
 		return "New Feature Added";
 	}
+	
+	@GetMapping("/develop")
+	public String getDevelopMessage() {
+		return "New Develop Added";
+	}
 
 }
