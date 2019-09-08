@@ -21,7 +21,7 @@ public class DemoController {
 	
 	@GetMapping("/develop")
 	public String getDevelopMessage() {
-		return "New Develop Added";
+		return  "Develop Branch modified";
 	}
 
 }
