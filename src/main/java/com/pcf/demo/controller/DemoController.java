@@ -16,7 +16,7 @@ public class DemoController {
 	
 	@GetMapping("/feature")
 	public String getFeatureMessage() {
-		return "New Feature Added";
+		return "Feature Branch Modified";
 	}
 
 }
