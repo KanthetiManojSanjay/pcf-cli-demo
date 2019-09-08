@@ -12,5 +12,11 @@ public class DemoController {
 	public String getMessage() {
 		return "My App in PCF!!";
 	}
+	
+	
+	@GetMapping("/feature")
+	public String getFeatureMessage() {
+		return "New Feature Added";
+	}
 
 }
