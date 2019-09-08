@@ -1,0 +1,6 @@
+applications:
+- name: PCF Demo
+path: target/pcf-cli-demo-0.0.1-SNAPSHOT.jar
+domain: cfapps.io
+memory: 950M
+instances: 1
